@@ -1,0 +1,28 @@
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.u-uppercase {
+    text-transform: uppercase;
+}
+
+.u-text-center {
+    text-align: center;
+}
+
+.u-noscroll {
+    overflow: hidden;
+}
+
+.u-vertical-middle {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    position: static;
+}
+
+.u-hide {
+    display: none !important;
+}
